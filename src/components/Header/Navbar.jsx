@@ -92,7 +92,7 @@ const Navbar = () => {
               </ul>
             </div>
 
-            <form class="d-flex pt-4 pe-4">
+            <form className={window.innerWidth > 600 ?"d-flex pt-4 pe-4": "d-none"}>
               <img className="p-2" src="img/lupita.png" alt="" />
               <img className="p-2" src="img/user.png" alt="" />
               <img className="p-2" src="img/heard.png" alt="" />
