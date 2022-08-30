@@ -6,7 +6,7 @@ import Title from '../Container/Title'
 const Singin = () => {
   return (
     <>
-        <form className='w-50 mx-auto pb-5'>
+        <form className={window.innerWidth > 600 ?'w-50 mx-auto pb-5':"mx-auto pb-5"}>
             <div className='d-flex justify-content-center p-4'>
                 <img  src='img/lupa.png'></img>
             </div>
