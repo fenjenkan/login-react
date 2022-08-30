@@ -1,0 +1,52 @@
+nav {
+    display: inline-block;
+    padding: 0 10px;
+    
+  }
+  .hrV{
+  
+    border:none;
+    height:5vh;
+    width:5px;  
+    margin: auto;    
+    background-color: gainsboro; 
+    border-radius: 10px;
+}
+
+.hrV2{
+  height: 20vh;
+  width: 5px;     
+}
+.hrVScroll{
+  background-color: blue;
+  width: 5px; 
+  height: 50px; 
+  border-radius: 10px;
+}
+  
+  .nav ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .nav.vertical ul {
+    flex-direction: column;
+    position: absolute;
+    left: 88%;
+    margin:35px
+  }
+  .texto-vertical-2 {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+  
+  .nav ul li a{
+    display: inline-block;
+    padding: 15px;
+    color: black;
+    transition: transform 0.3s cubic-bezier(0.925, 0.150, 0.505, 1.030);
+  }
+  
+  .nav ul li a:hover{
+    transform: scale(1.3);
+  }

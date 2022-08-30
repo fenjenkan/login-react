@@ -1,0 +1,8 @@
+.text-TYC{
+    font-size: 11px;
+}
+
+label  p > span{
+    color: pink;
+    text-decoration: underline!important;
+}

@@ -1,0 +1,12 @@
+.btn-pink{
+    width: 87%;
+    background-color: pink;
+    border: pink;
+    color: white;
+    border-radius: 0%;
+}
+
+.btn-pink:hover{
+    background-color: plum;
+    color: white;
+}

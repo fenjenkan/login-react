@@ -1,0 +1,25 @@
+.bg{
+    background-color: aqua;
+}
+
+.btn:hover{
+    border-color: aqua;
+}
+  #lblCartCount {
+    position: absolute;
+    top: 68px;
+    right: 74px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    color: pink;
+  }
+
+  #lblCartCount1 {
+    position: absolute;
+    top: 68px;
+    right: 32px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    color: pink;
+  }
+  
