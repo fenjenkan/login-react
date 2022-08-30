@@ -30,7 +30,7 @@ function App() {
               <div className='col-sm d-flex justify-content-center'>
                 <Singin/>
               </div>
-              <hr className={window.innerWidth > 600 ? "hrV": ""}></hr>
+              <hr className={window.innerWidth > 600 ? "hrVM": ""}></hr>
               <div className='col-sm d-flex justify-content-center mb-2'>
                 <Artist/>
               </div>
